@@ -28,7 +28,7 @@ services:
       # PERDERÁS LA CONEXIÓN (QR) cada vez que la app se reinicie (diariamente).
       # Crea una cuenta gratuita en MongoDB Atlas y pon la URL aquí:
       
-       - key: DATABASE_ENABLED
+      - key: DATABASE_ENABLED
          value: "false"
       
       # Desactiva Redis para ahorrar memoria (usará memoria interna)
