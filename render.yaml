@@ -29,9 +29,13 @@ services:
       # Crea una cuenta gratuita en MongoDB Atlas y pon la URL aquí:
       
       - key: DATABASE_ENABLED
-        value: "false"
+        value: "true"
       - key: DATABASE_PROVIDER
-        value: "local"
+        value: "postgresql"
+      - key: DATABASE_CONNECTION_URI
+        value: "postgresql://neondb_owner:npg_4vV3UaTHqOSi@ep-gentle-pond-ad8t6ig5-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+      - key: DATABASE_CONNECTION_CLIENT_NAME
+        value: "evolution_exchange"
       
       # Desactiva Redis para ahorrar memoria (usará memoria interna)
       - key: CACHE_REDIS_ENABLED
