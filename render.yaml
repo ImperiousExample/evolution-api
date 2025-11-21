@@ -28,10 +28,10 @@ services:
       # PERDERÁS LA CONEXIÓN (QR) cada vez que la app se reinicie (diariamente).
       # Crea una cuenta gratuita en MongoDB Atlas y pon la URL aquí:
       
-      # - key: DATABASE_ENABLED
-      #   value: "true"
-      # - key: DATABASE_CONNECTION_URI
-      #   value: "mongodb+srv://usuario:password@tu-cluster.mongodb.net/?retryWrites=true&w=majority"
+       - key: DATABASE_ENABLED
+         value: "true"
+       - key: DATABASE_CONNECTION_URI
+         value: "mongodb+srv://delvis4dev_db:Supplydepot25.@imperiouscluster.bji3j1f.mongodb.net/"
       # - key: DATABASE_PROVIDER
       #   value: "mongodb"
       
